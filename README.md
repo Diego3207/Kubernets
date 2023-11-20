@@ -8,6 +8,19 @@ Fecha: 20/11/2023<br>
 Sección: D06<br>
 ## Introducción
 Kubernetes es una plataforma de sistema distribuido de código libre para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores​ que fue originalmente diseñado por Google y donado a la Cloud Native Computing Foundation.
+## Preguntas
+¿Qué es Kubernetes?
+<br>
+Kubernetes es una plataforma portable y extensible de código abierto para administrar cargas de trabajo y servicios. Kubernetes facilita la automatización y la configuración declarativa. Tiene un ecosistema grande y en rápido crecimiento. El soporte, las herramientas y los servicios para Kubernetes están ampliamente disponibles.
+<br>
+¿Qué es Ingress?
+<br>
+Es la forma de acceder a tus pods desde fuera del cluster. Este recurso nos permite acceder a servicios a través de HTTP(s) y el tráfico se controla utilizando un conjunto de reglas que tú defines.
+<br>
+¿Qué es un LoadBalancer?
+<br>
+Elastic Load Balancing distribuye automáticamente el tráfico entrante entre varios destinos, por ejemplo, instancias EC2, contenedores y direcciones IP en una o varias zonas de disponibilidad. Monitorea el estado de los destinos registrados y enruta el tráfico solamente a destinos en buen estado. Elastic Load Balancing escala el balanceador de carga a medida que el tráfico entrante va cambiando con el tiempo. Puede escalarse automáticamente para adaptarse a la mayoría de las cargas de trabajo.
+<br>
 ## Pruebas
 ## 1 Crear carpeta principal
 <br>
