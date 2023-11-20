@@ -1,20 +1,20 @@
-# Realizar un proyecto con Microservicios
+# Realizar un proyecto con Kubernets
 Materia: Computación Tolerante a Fallas<br>
 Maestro: MICHEL EMANUEL LOPEZ FRANCO<br>
 Nombre: Diego Alonso Mercado Brizuela<br>
 Carrera: Ingeniería en Computación<br>
 Código: 215425636<br>
-Fecha: 5/11/2023<br>
+Fecha: 20/11/2023<br>
 Sección: D06<br>
 ## Introducción
-Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
+Kubernetes es una plataforma de sistema distribuido de código libre para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores​ que fue originalmente diseñado por Google y donado a la Cloud Native Computing Foundation.
 ## Pruebas
 ## 1 Crear carpeta principal
 <br>
 Crearemos una carpeta con el nombre que queramos.
 <br>
 En este escenario, se creó con este nombre "MicroServicio"
-### 2 Abrir una consola
+## 2 Abrir una consola
 Dentro de la consola, escribir "npm install -y"
 <br>
 Para que nos cree un proyecto node
@@ -124,4 +124,4 @@ Cabe mencionar que el nombre del pod dependerá de tu docker, ya que los cambia
 <br>
 <img src="https://github.com/Diego3207/MicroservicioDocker/blob/main/Evidencia13.png">
 # Conclusiones
-Los microservicios sirven para que si uno falla pueda otro sustituirlo y el sistema no se caiga, esto es tan relevante porque al momento de tener una tienda online donde se hacen compras con demasiada concurrencia si se llega a caer algo, por unos 5 segundos al menos, habrá caos total en la gente y esto solventará gran parte de los dolores de cabeza tanto para los usuarios cotidianos como para los desarrolladores.
+Kubernetes es código abierto lo que te brinda la libertad de aprovechar su infraestructura propia (on-premises), híbrida o de nube pública, lo que le permite mover las cargas de trabajo sin esfuerzo dónde quiera.
